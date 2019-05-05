@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-61.000000, -62.000000)">
+            <g id="Group-37" transform="translate(61.000000, 62.000000)">
+                <g id="Group-20">
+                    <circle id="svg-light" fill="#FFF3E6" fill-rule="nonzero" cx="22.5" cy="22.5" r="22.5"></circle>
+                    <path d="M31.9,22.55 C31.9,27.769025 27.669025,32 22.45,32 C17.230975,32 13,27.769025 13,22.55 C13,17.330975 17.230975,13.1 22.45,13.1 L22.45,22.55 L31.9,22.55 Z" id="svg-mid" fill="#FF9220"></path>
+                    <path d="M34,20.45 C34,15.230975 29.769025,11 24.55,11 L24.55,20.45 L34,20.45 Z" id="svg-dark" fill="#E1801B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
