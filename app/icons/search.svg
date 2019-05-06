@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Group 53</title>
+    <title>Group 13</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard" transform="translate(-115.000000, -223.000000)">
             <g id="Group-13" transform="translate(115.000000, 223.000000)">
                 <g id="Group-53">
-                    <circle id="svg-light" fill-opacity="0.113776" fill="#12CBA3" fill-rule="nonzero" cx="22.5" cy="22.5" r="22.5"></circle>
+                    <circle id="svg-light" fill="#E4F9F5" fill-rule="nonzero" cx="22.5" cy="22.5" r="22.5"></circle>
                     <circle id="svg-white" fill="#FFFFFF" fill-rule="nonzero" cx="18.9827586" cy="19.9827586" r="6.98275862"></circle>
                     <ellipse id="svg-mid" stroke="#1ABCB9" stroke-width="1.5" cx="18.8892857" cy="20.0169633" rx="6.88392857" ry="6.96815907"></ellipse>
                     <path d="M15.9642857,22.4574527 C15.3589286,21.6820078 15,20.7059232 15,19.6430756 C15,19.0628476 15.1071429,18.509733 15.3053571,18" id="svg-mid" stroke="#1ABCB9" stroke-width="1.5" stroke-linecap="round"></path>
                     <path d="M27.6053571,26.9525862 C27.3428571,27.256257 26.8875,27.2887931 26.5875,27.0285039 L23.85,24.6370968 C23.55,24.3713849 23.8477969,24.1370041 24.1049398,23.8333333 C24.3674398,23.5296626 24.4928571,23.2705784 24.7928571,23.5308676 L27.5303571,25.9222747 C27.8303571,26.182564 27.8625,26.6434928 27.6053571,26.9525862 Z" id="svg-mid" fill="#1ABCB9"></path>
                     <path d="M33.0479736,31.509582 C32.4854736,32.1711504 31.4890451,32.2416454 30.8354736,31.6722628 L26.0571429,27.6304227 C25.4035714,27.06104 25.3339286,26.0524194 25.8964286,25.3908509 C26.4589286,24.7292825 27.4553571,24.6587875 28.1089286,25.2281702 L32.8872593,29.2700103 C33.5408308,29.8393929 33.6104736,30.8480136 33.0479736,31.509582 Z" id="svg-dark" fill="#15A19F"></path>
+                </g>
+                <g id="Group-11" transform="translate(12.000000, 13.000000)">
+                    <g id="Group-10"></g>
                 </g>
             </g>
         </g>
