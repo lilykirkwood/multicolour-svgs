@@ -6,3 +6,20 @@
 .d-none {
   display: none;
 }
+
+$primary: salmon;
+$secondary: skyblue;
+
+$icon-colors-tones: (
+    (primary,lighten($primary, 20%), $primary,  darken($primary, 30%)),
+    (secondary, lighten($secondary, 20%), $secondary,  darken($secondary, 30%))
+);
+
+@each $color, $light, $mid, $dark in $icon-colors-tones {
+  .svg-#{$color} {
+      --svg-white: white;
+      --svg-light: #{$light};
+      --svg-mid: #{$mid};
+      --svg-dark: #{$dark};
+  }
+}

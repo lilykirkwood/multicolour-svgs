@@ -9,6 +9,7 @@ var gulp = require('gulp'),
     svgstore = require('gulp-svgstore'),
     svgmin = require('gulp-svgmin'),
     cheerio = require('gulp-cheerio'),
+    replace = require('gulp-replace'),
     del = require('del'),
     runSequence = require('run-sequence');
 
@@ -44,6 +45,11 @@ gulp.task('useref', function() {
 // Optimise and bundle SVG icons
 gulp.task('icons', function () {
   return gulp.src(paths.icons)
+    .pipe(replace('stroke="#', 'fill="#'))
+    .pipe(replace('id="svg-white"', 'class="svg-white" style="fill: var(--svg-white)"'))
+    .pipe(replace('id="svg-light"', 'class="svg-light" style="fill: var(--svg-light)"'))
+    .pipe(replace('id="svg-mid"', 'class="svg-mid" style="fill: var(--svg-mid)"'))
+    .pipe(replace('id="svg-dark"', 'class="svg-dark" style="fill: var(--svg-dark)"'))
     .pipe(svgmin({
       plugins: [{
         removeDimensions: true
@@ -64,7 +70,6 @@ gulp.task('icons', function () {
     .pipe(cheerio({
       run: function ($, file) {
         $('svg').addClass('d-none')
-        $('[fill]').removeAttr('fill')
       },
       parserOptions: {
         xmlMode: true

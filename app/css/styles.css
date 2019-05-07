@@ -4,3 +4,15 @@
 
 .d-none {
   display: none; }
+
+.svg-primary {
+  --svg-white: white;
+  --svg-light: #fdd9d5;
+  --svg-mid: salmon;
+  --svg-dark: #cc1b07; }
+
+.svg-secondary {
+  --svg-white: white;
+  --svg-light: #def2fa;
+  --svg-mid: skyblue;
+  --svg-dark: #1f8dba; }
