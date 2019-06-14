@@ -46,10 +46,9 @@ gulp.task('useref', function() {
 gulp.task('icons', function () {
   return gulp.src(paths.icons)
     .pipe(replace('stroke="#', 'fill="#'))
-    .pipe(replace('id="svg-white"', 'class="svg-white" style="fill: var(--svg-white)"'))
-    .pipe(replace('id="svg-light"', 'class="svg-light" style="fill: var(--svg-light)"'))
-    .pipe(replace('id="svg-mid"', 'class="svg-mid" style="fill: var(--svg-mid)"'))
-    .pipe(replace('id="svg-dark"', 'class="svg-dark" style="fill: var(--svg-dark)"'))
+    .pipe(replace(/id="svg-([^"]*)"/g, function(match, p1) {
+      return 'class="svg-' +  p1 + '" style="fill: var(--svg-' +  p1 + ')"'
+    }))
     .pipe(svgmin({
       plugins: [{
         removeDimensions: true
