@@ -18,7 +18,7 @@ $icon-colors-tones: (
 
 @each $color, $light, $mid, $dark in $icon-colors-tones {
   .svg-#{$color} {
-      --svg-white: $white;
+      --svg-white: #{$white};
       --svg-light: #{$light};
       --svg-mid: #{$mid};
       --svg-dark: #{$dark};
